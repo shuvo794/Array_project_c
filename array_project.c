@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    printf("Menu : ");
+    printf("Menu : \n");
     printf("--------------------\n");
     printf("1.Add\n");
     printf("2.Insert\n");
