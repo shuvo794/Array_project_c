@@ -4,7 +4,7 @@ int main(){
 int input;
 
 do{
-  printf("Menu : \n");
+    printf("Menu : \n");
     printf("--------------------\n");
     printf("1.Add\n");
     printf("2.Insert\n");
@@ -13,9 +13,6 @@ do{
     printf("5.Display\n");
     printf("6.clear\n");
     printf("0.Exist\n");
-
-
-
 }while(input!=0);
 
 
