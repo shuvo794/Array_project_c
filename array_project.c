@@ -1,7 +1,10 @@
 #include <stdio.h>
 
 int main(){
-    printf("Menu : \n");
+int input;
+
+do{
+  printf("Menu : \n");
     printf("--------------------\n");
     printf("1.Add\n");
     printf("2.Insert\n");
@@ -10,5 +13,12 @@ int main(){
     printf("5.Display\n");
     printf("6.clear\n");
     printf("0.Exist\n");
+
+
+
+}while(input!=0);
+
+
+  
     return 0;
 }
