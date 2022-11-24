@@ -36,6 +36,7 @@ case 0:
   
     break;
     case 1:
+    // Add data;
     printf("Enter a Integer value :  ");
     scanf("%d",&value);
     printf("%d Insert at Index %d\n",value,lenght);
