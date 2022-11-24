@@ -36,7 +36,9 @@ case 0:
   
     break;
     case 1:
-  
+    printf("Enter a Integer value :  ");
+    scanf("%d",&value);
+
     break;
     case 2:
   
