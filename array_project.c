@@ -4,6 +4,8 @@ int main(){
 int input;
 int data[MAX_LENGTH];
 int lenght=0;
+int value;
+
 system("cls");
 
 do{
