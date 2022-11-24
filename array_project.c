@@ -53,11 +53,17 @@ case 0:
  printf("Enter a Integer value :  ");
 
     scanf("%d",&value);
-     printf("Enter a Index - 0 %d :  ");
+     printf("Enter a Index 0 - %d :  ",lenght);
 
     scanf("%d",&index);
 
+    for( int i = lenght; i > index; i--){
+        data [i]=data[i-1];
+    }
 
+data[index]=value;
+lenght ++;
+printf("%d Insert Index%d\n",value,index);
 
 
     break;
