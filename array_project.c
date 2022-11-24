@@ -68,7 +68,17 @@ printf("%d Insert Index %d\n",value,index);
 
     break;
     case 3:
-  
+ 
+     printf("Enter a Index 0 - %d :  ",lenght-1);
+
+    scanf("%d",&index);
+
+     printf("Enter a Integer value :  ");
+
+    scanf("%d",&value);
+    data[index]=value;
+
+
     break;
     case 4:
   
