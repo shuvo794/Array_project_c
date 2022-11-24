@@ -77,6 +77,7 @@ printf("%d Insert Index %d\n",value,index);
 
     scanf("%d",&value);
     data[index]=value;
+    printf("%d Updated value %d\n",value, index);
 
 
     break;
