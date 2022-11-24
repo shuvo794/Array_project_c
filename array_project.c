@@ -2,6 +2,7 @@
 
 int main(){
 int input;
+system("cls");
 
 do{
     printf("Menu : \n");
@@ -13,13 +14,18 @@ do{
     printf("5.Display\n");
     printf("6.clear\n");
     printf("0.Exist\n");
-          }while(input!=0);
 
  printf("--------------------\n");
 
+ printf("Enter a Manu");
+
  scanf("%d",&input);
 
- 
+          }while(input!=0);
+
+
+
+
   
     return 0;
 }
