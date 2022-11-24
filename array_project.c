@@ -38,7 +38,7 @@ case 0:
     case 1:
     printf("Enter a Integer value :  ");
     scanf("%d",&value);
-    printf("%d Insert at Index %d",input,value);
+    printf("%d Insert at Index %d\n",value,lenght);
     lenght++;
     break;
     case 2:
