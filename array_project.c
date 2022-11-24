@@ -13,7 +13,7 @@ do{
     printf("5.Display\n");
     printf("6.clear\n");
     printf("0.Exist\n");
-}while(input!=0);
+          }while(input!=0);
 
 
   
