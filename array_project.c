@@ -15,7 +15,9 @@ do{
     printf("0.Exist\n");
           }while(input!=0);
 
+ printf("--------------------\n");
 
+ 
   
     return 0;
 }
