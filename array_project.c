@@ -42,10 +42,12 @@ case 0:
     scanf("%d",&value);
 
     data[lenght]=value;
-    
+
     printf("%d Insert at Index %d\n",value,lenght);
+
     lenght++;
     break;
+
     case 2:
   
     break;
@@ -67,7 +69,13 @@ case 0:
   printf("\n");
     break;
     case 6:
-  
+   for(int i = 0; i < lenght; i++){
+        
+       data[i]=0;
+        
+    }
+    lenght = 0;
+    printf("Clear Data\n");
     break;
 
 default:
