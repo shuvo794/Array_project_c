@@ -54,7 +54,10 @@ case 0:
     case 5:
     // Display data item;
     for(int i = 0;i<lenght;i++){
+        
+        
         printf("Data : ");
+        printf("%d",data[i]);
     }
   
     break;
