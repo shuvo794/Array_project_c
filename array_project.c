@@ -60,6 +60,12 @@ case 0:
     case 5:
     // Display data item
     // printf("---------Result-----------\n");
+if(lenght==0){
+    printf("There is no data\n");
+    break;
+}
+
+
      printf("Data : ");
     for(int i = 0; i < lenght; i++){
         
