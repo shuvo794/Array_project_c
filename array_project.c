@@ -63,7 +63,7 @@ case 0:
 if(lenght==0){
     printf("There is no data\n");
     break;
-}
+}else{
 
 
      printf("Data : ");
@@ -73,6 +73,7 @@ if(lenght==0){
         
     }
   printf("\n");
+}
     break;
     case 6:
    for(int i = 0; i < lenght; i++){
