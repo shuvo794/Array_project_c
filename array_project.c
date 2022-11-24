@@ -2,6 +2,8 @@
 #define MAX_LENGTH 100
 int main(){
 int input;
+int data[MAX_LENGTH];
+int lenght=0;
 system("cls");
 
 do{
