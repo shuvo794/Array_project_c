@@ -63,7 +63,7 @@ case 0:
 
 data[index]=value;
 lenght ++;
-printf("%d Insert Index%d\n",value,index);
+printf("%d Insert Index %d\n",value,index);
 
 
     break;
