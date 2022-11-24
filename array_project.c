@@ -86,6 +86,7 @@ printf("%d Insert Index %d\n",value,index);
      printf("Enter a Index 0 - %d :  ",lenght-1);
 
     scanf("%d",&index);
+    int dv=data[index];
 
     for(int i= index;i<lenght;i++){
          data [i]=data[i+1];
@@ -93,7 +94,7 @@ printf("%d Insert Index %d\n",value,index);
     }
     data[lenght]=0;
     lenght --;
-  
+  printf("%d Deketed value %d\n",dv, index);
     break;
     case 5:
     // Display data item
