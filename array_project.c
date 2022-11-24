@@ -24,10 +24,38 @@ do{
  scanf("%d",&input);
 
 system("cls");
-printf("----------Result Start----------\n");
-printf("You have Slect NO %d\n",input);
+
+switch (input)
+{
+case 0:
+  
+    break;
+    case 1:
+  
+    break;
+    case 2:
+  
+    break;
+    case 3:
+  
+    break;
+    case 4:
+  
+    break;
+    case 5:
+  
+    break;
+    case 6:
+  
+    break;
+
+default:
+printf("Invalide Input\n");
+    break;
+}
 
 printf("----------Result End----------\n");
+
 
           }while(input!=0);
 system("cls");
