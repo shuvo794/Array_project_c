@@ -28,7 +28,7 @@ printf("You have Slect NO %d\n",input);
 printf("----------Result End----------\n");
 
           }while(input!=0);
-
+system("cls");
 
 
 
