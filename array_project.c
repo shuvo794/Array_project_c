@@ -15,7 +15,7 @@ do{
     printf("6.clear\n");
     printf("0.Exist\n");
 
- printf("--------------------\n");
+  printf("--------------------\n");
 
  printf("Enter a Manu");
 
