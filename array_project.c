@@ -38,7 +38,11 @@ case 0:
     case 1:
     // Add data;
     printf("Enter a Integer value :  ");
+
     scanf("%d",&value);
+
+    data[lenght]=value;
+    
     printf("%d Insert at Index %d\n",value,lenght);
     lenght++;
     break;
@@ -52,15 +56,15 @@ case 0:
   
     break;
     case 5:
-    // Display data item;
-    for(int i = 0;i<lenght;i++){
+    // Display data item
+    // printf("---------Result-----------\n");
+     printf("Data : ");
+    for(int i = 0; i < lenght; i++){
         
-        printf("---------Result-----------\n");
-
-        printf("Data : ");
-        printf("%d",data[i]);
+        printf("%d\t",data[i]);
+        
     }
-  
+  printf("\n");
     break;
     case 6:
   
