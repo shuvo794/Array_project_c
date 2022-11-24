@@ -135,6 +135,8 @@ printf("----------Result End----------\n");
           }while(input!=0);
 system("cls");
 
+printf("Thank you using this app\n");
+
 
 
   
