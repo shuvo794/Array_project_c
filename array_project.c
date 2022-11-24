@@ -4,7 +4,7 @@ int main(){
 int input;
 int data[MAX_LENGTH];
 int lenght=0;
-int value;
+int value, index;
 
 system("cls");
 
@@ -49,7 +49,17 @@ case 0:
     break;
 
     case 2:
-  
+//   Insert Opareation ;
+ printf("Enter a Integer value :  ");
+
+    scanf("%d",&value);
+     printf("Enter a Index - 0 %d :  ");
+
+    scanf("%d",&index);
+
+
+
+
     break;
     case 3:
   
