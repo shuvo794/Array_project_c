@@ -55,7 +55,8 @@ case 0:
     // Display data item;
     for(int i = 0;i<lenght;i++){
         
-        
+        printf("---------Result-----------\n");
+
         printf("Data : ");
         printf("%d",data[i]);
     }
