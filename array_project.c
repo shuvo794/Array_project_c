@@ -1,11 +1,11 @@
 #include <stdio.h>
 #define MAX_LENGTH 100
+
 int main(){
 int input;
 int data[MAX_LENGTH];
 int lenght=0;
 int value, index;
-
 system("cls");
 
 do{
