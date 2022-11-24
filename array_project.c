@@ -17,6 +17,7 @@ do{
 
  printf("--------------------\n");
 
+ scanf("%d",&input);
  
   
     return 0;
