@@ -5,7 +5,7 @@ int input;
 system("cls");
 
 do{
-    printf("Menu : \n");
+    printf(" Menu : \n");
     printf("--------------------\n");
     printf("1.Add\n");
     printf("2.Insert\n");
@@ -17,9 +17,14 @@ do{
 
   printf("--------------------\n");
 
- printf("Enter a Manu");
+ printf("Enter a Manu\n");
 
  scanf("%d",&input);
+
+system("cls");
+printf("You have Slect NO %d\n",input);
+
+
 
           }while(input!=0);
 
