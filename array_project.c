@@ -98,7 +98,7 @@ case 0:
   printf("%d Deketed value %d\n",dv, index);
     break;
     case 5:
-    
+
    // printf("---------Result-----------\n");
   
   if(lenght==0){
@@ -137,7 +137,7 @@ printf("----------Result End----------\n");
           }while(input!=0);
 system("cls");
 
-printf("Thank you using this app\n");
+printf("Thank you using this App\n");
 
 
 
