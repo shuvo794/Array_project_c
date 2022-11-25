@@ -30,6 +30,7 @@ printf("----------Result Start----------\n");
 
 
 switch (input)
+
 {
 case 0:
   
