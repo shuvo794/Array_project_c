@@ -49,7 +49,7 @@ case 0:
     break;
 
     case 2:
-    
+
 //   Insert Opareation ;
  printf("Enter a Integer value :  ");
 
@@ -62,9 +62,9 @@ case 0:
         data [i]=data[i-1];
     }
 
-data[index]=value;
-lenght ++;
-printf("%d Insert Index %d\n",value,index);
+     data[index]=value;
+     lenght ++;
+     printf("%d Insert Index %d\n",value,index);
 
 
     break;
