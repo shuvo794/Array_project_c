@@ -98,6 +98,7 @@ case 0:
   printf("%d Deketed value %d\n",dv, index);
     break;
     case 5:
+    
    // printf("---------Result-----------\n");
   
   if(lenght==0){
