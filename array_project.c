@@ -97,7 +97,7 @@ printf("%d Insert Index %d\n",value,index);
   printf("%d Deketed value %d\n",dv, index);
     break;
     case 5:
-    // Display data item
+   
     // printf("---------Result-----------\n");
 if(lenght==0){
     printf("There is no data\n");
