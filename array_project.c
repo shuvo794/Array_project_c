@@ -49,6 +49,7 @@ case 0:
     break;
 
     case 2:
+    
 //   Insert Opareation ;
  printf("Enter a Integer value :  ");
 
